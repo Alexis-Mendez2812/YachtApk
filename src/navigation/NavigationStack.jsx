@@ -9,7 +9,7 @@ export default function NavigationStack() {
   return (
 <Stack.Navigator initialRouteName="Home" >
 <Stack.Screen name="Home" component={HomeScreen}/>
-<Stack.Screen name="SettingsScreen" component={SettingsScreen}/>
+<Stack.Screen name="Settings" component={SettingsScreen}/>
 </Stack.Navigator>
   )
 }
